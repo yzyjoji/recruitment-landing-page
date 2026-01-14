@@ -1,0 +1,50 @@
+{
+  "name": "binance-futures-recruitment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Binance Futures Customer Service Agent Recruitment Website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "motion": "^11.15.0",
+    "lucide-react": "^0.468.0",
+    "recharts": "^2.15.0",
+    "lightweight-charts": "^4.2.1",
+    "sonner": "^2.0.3",
+    "react-hook-form": "^7.55.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5",
+    "tailwindcss": "^4.0.0",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/binance-futures-recruitment.git"
+  },
+  "keywords": [
+    "binance",
+    "recruitment",
+    "trading",
+    "futures",
+    "customer-service"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
