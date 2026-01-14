@@ -47,14 +47,15 @@
         "recharts": "^2.15.2",
         "sonner": "^2.0.3",
         "tailwind-merge": "*",
-        "vaul": "^1.1.2",
-        "vite": "*"
+        "vaul": "^1.1.2"
     },
     "devDependencies": {
         "@types/node": "^20.10.0",
         "@vitejs/plugin-react-swc": "^3.10.2",
-        "@tailwindcss/vite": "4.0.0",
+        "@tailwindcss/postcss": "4.0.0",
         "tailwindcss": "4.0.0",
+        "postcss": "^8.4.0",
+        "autoprefixer": "^10.4.0",
         "vite": "6.3.5"
     },
     "scripts": {

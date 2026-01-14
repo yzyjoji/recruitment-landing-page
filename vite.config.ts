@@ -4,7 +4,7 @@ import tailwind from '@tailwindcss/vite';
 import path from 'path';
 
 export default defineConfig({
-  plugins: [react(), tailwind()],
+  plugins: [react()],
   base: './',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
